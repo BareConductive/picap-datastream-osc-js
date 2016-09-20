@@ -4,6 +4,9 @@
   "main": "datastream-osc.js",
   "author": "Szymon Kaliski",
   "license": "ISC",
+  "scripts": {
+    "start": "node datastream-osc.js"
+  },
   "dependencies": {
     "omgosc": "^1.0.0",
     "yargs": "^5.0.0"
