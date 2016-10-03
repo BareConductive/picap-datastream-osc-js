@@ -22,7 +22,7 @@
 
  *******************************************************************************/
 
-var MPR121 = require('../wiring-pi-mpr121/node/'); // TODO: solve this later - how to require?
+var MPR121 = require('node-picap');
 var argv   = require('yargs').argv;
 var osc    = require('omgosc');
 
