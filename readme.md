@@ -13,7 +13,7 @@ Example OSC data streaming code for the  [Bare Conductive Pi Cap](http://www.bar
 ## Install / Build
 
 * You should install this code as part of the Pi Cap Raspbian package: `sudo apt-get install picap`    
-* However, if you are doing this yourself, clone the repository and run `npm install && node ./colour-spin.js`
+* However, if you are doing this yourself, clone the repository and run `npm install && node ./datastream-osc.js`
 
 ## Usage
 

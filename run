@@ -47,7 +47,7 @@ npm install 2>/dev/null
 
 # add sudo if we need to - and pass all arguments to the target
 if [[ $EUID -ne 0 ]]; then
-    execute_and_echo sudo $(which node) ./picap-datastream-osc.js "$@"
+    execute_and_echo sudo $(which node) ./datastream-osc.js "$@"
 else
-    execute_and_echo $(which node) ./picap-datastream-osc.js "$@"
+    execute_and_echo $(which node) ./datastream-osc.js "$@"
 fi
