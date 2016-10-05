@@ -7,6 +7,7 @@ Example OSC data streaming code for the  [Bare Conductive Pi Cap](http://www.bar
 ## Requirements
 
 * Requires [WiringPi](http://wiringpi.com/) (`apt-get install wiringpi`)
+* Requires [Bare Conductive's MPR121 libary for WiringPi](https://github.com/BareConductive/wiringpi-mpr121)
 * Requires [Node.js](https://nodejs.org/en/) 0.12 or later
 * Requires [NPM](https://www.npmjs.com/)
 
