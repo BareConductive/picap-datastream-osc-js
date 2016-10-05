@@ -50,8 +50,10 @@ if (argv.h || argv.host) { host = argv.h || argv.host; }
 if (argv.p || argv.port) { port = argv.p || argv.port; }
 
 try {
-  mpr121 = new MPR121();
+  // correct address for the Pi Cap - other boards may vary
+  mpr121 = new MPR121('0x5C'); 
 }
+
 catch (e) {
   console.log(e);
   process.exit(1);
