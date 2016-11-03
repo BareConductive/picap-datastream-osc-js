@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "datastream-osc.js",
   "author": "Szymon Kaliski",
-  "license": "CC-BY-SA-3.0",
+  "license": "MIT",
   "scripts": {
     "start": "node datastream-osc.js"
   },
